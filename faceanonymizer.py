@@ -1,12 +1,8 @@
-import mediapipe as mp
-from mediapipe.tasks import python
-from mediapipe.tasks.python import vision
 
-
-
-
-#read 
 import cv2
+
+face_cascade = cv2.CascadeClassifier('models/facess.xml')
+
 img = cv2.imread('assets/me.jpg')
 
 cv2.imshow('img', img)
