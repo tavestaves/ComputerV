@@ -13,5 +13,6 @@ adaptive_thresh = cv2.adaptiveThreshold(img_gray, 255, cv2.ADAPTIVE_THRESH_GAUSS
 
 cv2.imshow('img', img)
 cv2.imshow('thresh', thresh)
+
 cv2.imshow('adaptive_thresh', adaptive_thresh)
 cv2.waitKey(0)
